@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+	margin: 0;
+    padding: 0;
+}
+
+body {
+	background: #FAFAFA;
+    padding-top: 56px;
+    font-family: 'Open Sans', serif;
+}
+.container {
+	max-width: 728px;
+    margin: 0 auto;
+}
+a {
+	color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+button {
+	border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Header */
+.container--header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.navtop {
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	box-shadow: 0 1px 0 rgba(0,0,0, .1);
+	top: 0;
+	padding: 8px 16px;
+}
+.navtop__logo {
+	width: 25%;
+}
+.navtop__logo img{ 
+    width: 100%;
+}
+.navtop__icon{
+  font-size: 1em;
+  background-color: transparent;
+  border: none;
+
+}
+
+/* Stories */
+.stories {
+	display: flex;
+	align-items: center;
+	margin: 30px auto 35px auto;
+	
+}
+.stories__list {
+	width: 78px;
+    height: 78px;
+	border-radius: 100%;
+	margin: 0 10px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stories__list--active {
+	border-radius: 100%;
+	background: linear-gradient(46deg, rgba(245,160,77,1) 0%, rgba(160,15,139,1) 100%);
+
+}
+.stories__img {
+	width: 100%;
+	border-radius: 100%;	
+	border: 2px solid white;
+	margin: 0;
+}
+/* Feed */
+.feed {
+	width: 95%;
+}
+.card {
+	margin: 10px 0 30px 0;
+	border: 1px solid black;
+	border: 1px solid rgba(0, 0, 0, .1);
+	border-radius: 10px;
+	overflow: hidden;
+}
+.card__header{
+	height: 5em;
+	background-color: #fff;
+	padding: 35px 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.card__profile {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.card__profile-user {
+	width: 10%;
+}
+.card__profile-user img {
+	width: 100%;
+	border-radius: 50%;
+}
+.card__profile-name {
+	font-size: 14px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+.card__button {
+	font-size: 14px;
+}
+.card__body {
+	width: 100%;
+}
+.card__body img {
+	width: 100%;
+}
+.card__controls {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 18px;
+    background: #fff;
+}
+.card__controls-item {
+	font-size: 25px;
+}
+.card__controls-item i:nth-child(2) {
+	margin-left: 20px;
+}
+.card__footer {
+	display: flex;
+    align-items: center;
+    padding: 6px 10px;
+    background: rgba(0, 0, 0, .05);
+}
+.card__footer--user {
+	width: 8%;
+}
+.card__footer-img {
+    width: 100%;
+    border-radius: 50%;
+}
+.card__footer--likes {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+
+
+
+
